@@ -1,0 +1,41 @@
+
+Ternary Operator in JavaScript
+The ternary operator in JavaScript, also known as the conditional operator, is a handy tool for writing concise conditional statements. It takes three operands:
+
+Condition: An expression that evaluates to true or false.
+Expression if true: The expression to be evaluated if the condition is true.
+Expression if false: The expression to be evaluated if the condition is false.
+
+Here's the syntax:
+
+JavaScript
+condition ? expression_if_true : expression_if_false
+
+The entire operator evaluates to either the expression_if_true or the expression_if_false depending on the outcome of the condition.
+
+Checking Even or Odd with Ternary Operator
+Here's how to use the ternary operator to check if a number is even or odd in JavaScript:
+
+JavaScript
+let num = 10;
+
+ Check if number is even using modulo operator and ternary operator
+let evenOdd = num % 2 === 0 ? "Even" : "Odd";
+
+console.log(`${num} is ${evenOdd}`);
+
+
+This code outputs:
+
+10 is Even
+
+Advantages of using Ternary Operator
+The ternary operator offers several benefits:
+
+Conciseness: Makes code more concise and readable compared to if-else statements for simple conditions.
+Inline evaluation: Allows for inline evaluation of expressions, which can be useful in certain situations.
+However, remember:
+
+Readability: Overusing the ternary operator for complex conditions can make code less readable.
+Nesting: Nesting ternary operators can become difficult to follow.
+Choose the approach that best suits the clarity and maintainability of your code.
